@@ -18,10 +18,16 @@ M = (x)=>{
   return x(x)
 }
 
-C = (x)=> {
-  return A(B(x))
+P = (x) => {
+  return A
 }
 
-A(B(I)) == C(I)
-M(B(I)) == C(I)
-B(I)(B(I)) == C(I)
+C = (x)=> {
+  return P(B(x))
+}
+
+var x = B
+C(x) == P(B(x))
+C(x) == P(M(x))
+C(x) == P(x(x))
+C(C) == P(C(C))
