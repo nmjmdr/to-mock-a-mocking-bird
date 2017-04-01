@@ -15,14 +15,17 @@ Which of these is true:
 
 
 ```
-Soln:
+TO DO:Soln:
 Assuming this is true: "There is atleast one bird that is not fond of any bird" and such a bird "P" exists: 
 Px != x for any x
 Given C1: Cx = A(Bx), for any A and B, there is a C which composes A and B, for any x
 Let A be M and B be P
-C = M(Px)
-C = Px, Now x is any bird. So x can be C
-Implies:
-C = PC
+Cx = A(Bx)
+Cx = P(Mx)
+Mx equals xx
+Cx = P(xx)
+As x can be any bird, lets say x = C
+Hence:
+CC = P(CC), Thus P is fond of CC
 ```
 _Thus there is no bird "P" such that it is NOT fond of other bird, or in other words: every bird is fond of atleast one bird_
