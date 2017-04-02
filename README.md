@@ -19,7 +19,7 @@ Soln:
 Assuming this is true: "There is atleast one bird that is not fond of any bird" and such a bird "P" exists:
 Px != x for any x
 Given C1: Cx = A(Bx), for any A and B, there is a C which composes A and B, for any x
-Let A be M and B be P
+Let A be P and B be M
 Cx = A(Bx)
 Cx = P(Mx)
 Mx equals xx
