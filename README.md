@@ -43,4 +43,11 @@ Cx = xx(xx),
 let x = C, then
 CC = CC(CC)
 Thus CC is fond of itself(CC), Hence there at least one bird that is egocentric
+
+Another approach (from the book):
+From Q1, we know that every bird is fond of another bird
+Lets assume that M is fond of a bird E =>
+ME = E
+But as M is a mocking bird, ME = EE
+Hence EE = E => E is fond of itself
 ```
