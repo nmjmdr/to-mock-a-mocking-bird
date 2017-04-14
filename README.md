@@ -51,3 +51,13 @@ ME = E
 But as M is a mocking bird, ME = EE
 Hence EE = E => E is fond of itself
 ```
+### Q 3.
+A bird 'A' is called an agreeable bird if for every bird 'B' there is some 'x' such that Ax = Bx
+Given composition condition C1: Cx = A(Bx) and there is an agreeable bird, prove that: Every bird is fond of at least one bird
+```
+Soln:
+Given A is an agreeable bird, then for some bird P, Py = Ay
+Let P be a composition function as well, such that Py = Q(Ay), for any given y
+Ay = Q(Ay)
+Thus Q is fond of Ay
+```
